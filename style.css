@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,15 +17,21 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  font-family: "Roboto Condensed";
-  gap: 15px;
+  font-family: Rubik;
+  gap: 20px;
   max-height: 25vh;
+  font-weight: 500;
 }
 .banner .option {
   font-size: 32px;
   color: #fff;
   text-decoration: none;
   padding: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.banner .option:hover {
+  color: #cacaca;
 }
 img {
   width: 64px;
